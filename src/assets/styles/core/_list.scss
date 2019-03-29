@@ -1,0 +1,44 @@
+.list-social {
+    display: flex;
+    align-items: center;
+
+    li {
+        margin-left: 10px;
+    }
+}
+.list-opc {
+  display: flex;
+  align-items: center;
+
+  li {
+      margin-left: 10px;
+  }
+}
+
+.list-tecnologies {
+    display: flex;
+    align-items: center;
+
+    li {
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    
+}
+.list-genero{
+  display: flex;
+  align-items: center;
+
+}
+
+
+.list-gen-f,
+.list-gen-m{
+  display: flex;
+  align-items: center;
+  
+}
+
+.list-gen-f{
+  margin-right: 20px;
+}

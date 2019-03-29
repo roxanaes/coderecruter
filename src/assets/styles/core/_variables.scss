@@ -1,0 +1,71 @@
+/**
+ * @description: Configuraciones de variables.
+ */
+
+ /* url
+---------------------------------------------------------------*/
+$url-dist : '..';
+$url-public-fonts : '../fonts';
+
+/* font
+---------------------------------------------------------------*/
+$font-primary: 'Exo';
+$font-global: 'Arial';
+
+$font-base-size : 62.5%; /* 10px*/
+$font-body-size : 1.3rem; 		/* 13px*/
+$font-heading : $font-primary;
+$font-text : $font-global;
+
+
+/* typography
+---------------------------------------------------------------*/
+
+/* buttons
+---------------------------------------------------------------*/
+$button-bg-primary: '';
+$button-bg-secondary: '';
+
+/* forms
+---------------------------------------------------------------*/
+
+
+/* color
+---------------------------------------------------------------*/
+$color-branding: (
+  primary: #3dc154,
+  secondary: #ffba7a
+);
+
+$color-semantic: (
+  error: #ff0000,
+  warning: #ffd0a5,
+  success: #059d2b,
+  information: #5075ea
+);
+
+$color-neutral: (
+  white: white,
+  black: #5d5d5d,
+  gray-primary: #5d5d5d,
+  gray-secondary: #7f7f7f,
+  color-error: #c60000
+);
+
+$color-borders: (
+  primary: '#d8d8d8'
+);
+
+$color-text: map-get($color-neutral, black);
+
+/* layout
+---------------------------------------------------------------*/
+$layout-width: 960px;
+
+
+/* $mq
+---------------------------------------------------------------*/
+$mq-desktop : 1024px;
+$mq-tablet : 800px;
+$mq-mobile : 601px;
+$mq-mobile-sm : 400px;

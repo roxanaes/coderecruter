@@ -1,0 +1,114 @@
+
+
+.form-input {
+    font-size: 12px;
+    border:1px solid #dedede;
+    border-radius: 4px;
+    padding: 10px;
+
+    &:focus {
+        border-color:map-get($color-branding, primary);
+    }
+
+    &.has-error {
+        border-color: #ff0000;
+        color: #c60000;
+    }
+  }
+  
+.form{
+  .form-title{
+      margin-top: 40px;
+    h1{
+      color: #0d3964;
+      
+    }
+    h2{
+      font-size: 1.4rem;
+      font-weight: bold;
+     
+      span{
+        display: block;
+        margin-top: 6px;
+        font-weight: normal;
+      }
+    }
+  }
+  .form-row{
+    margin-bottom: 20px;
+   
+    label,
+    select{
+      display: block;
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+      color: #7f7f7f;
+
+    }
+
+    input[type="text"],
+    input[type="password"]{
+      width: 100%;
+    }
+
+    &-textarea{
+      width: 100%;
+      margin-top: 20px;
+      border: 1px solid #dedede;
+    }
+
+    select{
+      width: 220px;
+      height: 33px;
+      border-radius: 4px;
+      border: 1px solid #dedede;
+      
+    }
+
+    &-flex{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-footer{
+      p {
+        font-size: 1.1rem;
+      } 
+    }
+
+    &-reg{
+      margin-bottom: 20px;
+      input[type="text"],
+      input[type="password"]{
+        width: 225px;
+      }
+     .gen {
+        margin: 0 5px 0 0;
+      }
+    }
+    
+  }
+
+  .form-flex{
+    display: flex;
+    align-items: center;
+  
+    label{
+      margin: 0 0 0 5px;
+    }
+  }
+
+  a{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+  .button{
+    width: 100%;
+    border-radius: 4px;
+  }
+}  
+    
+
+
